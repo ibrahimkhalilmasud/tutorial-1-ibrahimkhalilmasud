@@ -1,6 +1,6 @@
 ## Your Info:
-1. Matric Number
-1. Name
+1. Matric Number : 828117
+1. Muhammad Ibrahim Khalil
 
 ## Instruction
 Answer all the questions and upload your source codes here.
