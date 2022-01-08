@@ -1,4 +1,4 @@
-package tutorial-1-ibrahimkhalilmasud
+//package tutorial-1-ibrahimkhalilmasud
 
 import java.util.Scanner;
 
