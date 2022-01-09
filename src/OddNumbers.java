@@ -1,23 +1,29 @@
-import java.util.Scanner;
-public class OddNumbers {
+import java.util.Scanner; // import Scanner
 
-    public static void main(String args[]) {
-        int n = 100;
-        System.out.print("Odd Numbers from 1 to "+n+" are: ");
-        for (int i = 1; i <= n; i++) {
-            if (i % 2 != 0) {
-                System.out.print(i + " ");
+
+class OddNumbers{
+    public static void main (String args[]){
+        int r,i;
+        Scanner scan=new Scanner(System.in); //create a scanner object for input
+
+
+        System.out.print("Please enter X: ");  // X from user
+        int X = scan.nextInt();
+
+        System.out.print("Please enter Y: ");  // Y from user
+        int Y = scan.nextInt();
+
+//        System.out.println("Difference :");
+//       for (
+//               int z =Y - X;
+//               return z;
+//               )
+        System.out.print("\nDifference numbers between "+X+" and "+Y+" are :\n");
+        for(i=X; i<=Y; i++){
+            r=i%2;
+            if(r==1)
+                System.out.println(i);
+
             }
-        }
     }
 }
-
-
-//    public static void main(String[] args) {
-//        int N;
-//        N = 1;
-//        while (N <= 32) {
-//            N = 2 * N;
-//            System.out.println(N);
-//        }
-//    }
